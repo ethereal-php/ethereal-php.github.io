@@ -1,0 +1,5 @@
+name: Ethereal PHP
+url: https://ethereal-php.github.io
+
+source: .
+destination: _sites
