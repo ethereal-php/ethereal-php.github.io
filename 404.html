@@ -1,0 +1,17 @@
+---
+layout: master
+title: Page Not Found
+---
+
+<noscript><style>.container .no-js{display:none;}</style></noscript>
+
+<div class="container">
+  <h1>404</h1>
+  <h2>Page Not Found</h2>
+  <p>The page <span class="no-js">("<span id="path"></span>")</span> that you're looking for didn't exist or delete.</p>
+  <p>Make sure that the URL is right.</p>
+  <a class="button">Go to Homepage</a>
+  <button class="no-js" onclick="window.location.history(-1)">Back to previous</button>
+</div>
+
+<script>document.getElementById('path').textContent = window.location.pathname;</script>
