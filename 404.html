@@ -1,5 +1,5 @@
 ---
-layout: master
+layout: default
 title: Page Not Found
 ---
 
@@ -11,7 +11,7 @@ title: Page Not Found
   <p>The page <span class="no-js">("<span id="path"></span>")</span> that you're looking for didn't exist or delete.</p>
   <p>Make sure that the URL is right.</p>
   <a class="button">Go to Homepage</a>
-  <button class="no-js" onclick="window.location.history(-1)">Back to previous</button>
+  <button class="no-js" onclick="location.back()">Back to previous</button>
 </div>
 
-<script>document.getElementById('path').textContent = window.location.pathname;</script>
+<script>document.getElementById('path').textContent = location.pathname;</script>
